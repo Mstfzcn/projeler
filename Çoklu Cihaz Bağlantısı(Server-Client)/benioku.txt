@@ -1,0 +1,5 @@
+ServerWFApp ve ClientWFApp projeleri içerisindeki "TcpListener" ve "TcpClient" sýnýflarýndan oluþturulan nesnelere
+girilmesi gereken IP adresi parametrelerini, ServerWFApp uygulamasýnýn çalýþtýrýlacaðý bilgisayarýn IPv4 adresi
+olmasý gerekmektedir. Bunun için uygulama çalýþtýrýlmadan önce bu deðiþiklikler yapýlmalýdýr.
+Ardýndan ClientWFApp projesi publish edilip setup dosyasý elde edilmelidir. Bu setup istemci olmasý istenilen
+bilgisayarlara kurulmalýdýr. Bu aþamalar eksiksiz tamamlandýysa sunucu hizmetini baþlatýp baðlantý saðlanabilir.
