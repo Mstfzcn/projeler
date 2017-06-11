@@ -1,0 +1,2 @@
+Burada ki kod yapýsý; http://maker.robotistan.com/esp8266-dersleri-2-thingspeake-sicaklik-yollama/ adresindeki
+bilgiden yararlanarak oluþturulmuþtur.

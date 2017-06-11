@@ -1,0 +1,42 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Sera Takip</title>
+    <link rel="stylesheet" type="text/css" href="~/Content/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/Site.css" />
+
+    <script language="JavaScript">
+
+        function waitfor()
+        {
+            window.location.reload();
+        }
+
+        setTimeout("waitfor()", 5000);
+
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="banner"><img src="~/Pictures/sera.jpg"/></div>
+        <ul class="nav nav-tabs nav-justified">
+            <li role="presentation"><a href="/Home/Index">Sera Bilgi</a></li>
+            <li role="presentation"><a href="/Home/Istatistik">Veri İstatistiği</a></li>
+        </ul>
+        @{
+            string derece = "28";
+            string nemOran = "80";
+        }
+        <h3 class="baslik">Sıcaklık : <span class="label label-default">@ViewBag.Veri</span> Derece</h3>
+        <h3 class="baslik">Nem Oranı(%) : <span class="label label-default">@nemOran</span></h3>
+    </div>
+</body>
+</html>
