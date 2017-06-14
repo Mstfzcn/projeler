@@ -1,0 +1,107 @@
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\bin\Release\TravelDiary.dll
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\bin\Release\TravelDiary.pdb
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\bin\Release\com.mylocation.apk
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\bin\Release\com.mylocation-Signed.apk
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\bin\Release\Xamarin.Android.Support.v4.dll
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\bin\Release\Xamarin.GooglePlayServices.Base.dll
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\bin\Release\Xamarin.GooglePlayServices.Basement.dll
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\bin\Release\Xamarin.GooglePlayServices.Maps.dll
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\obj\Release\TravelDiary.dll
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\obj\Release\TravelDiary.pdb
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\obj\Release\android\bin\com.mylocation.apk
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\obj\Release\res\layout\listitem.xml
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\obj\Release\res\layout\historylocation.xml
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\obj\Release\res\layout\main.xml
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\obj\Release\res\values\strings.xml
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\obj\Release\res\drawable\icon.png
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\obj\Release\res\drawable\worldwide_location.png
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\obj\Release\res\drawable\bg01.png
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\obj\Release\res\drawable\close.png
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\obj\Release\res\drawable\blue_button.xml
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\obj\Release\res\values\styles.xml
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\obj\Release\R.cs.flag
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\obj\Release\uploadflags.txt
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\bin\Release\TravelDiary.dll.mdb
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\obj\Release\TravelDiary.csprojResolveAssemblyReference.cache
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\bin\Release\Java.Interop.dll.mdb
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\bin\Release\Microsoft.CSharp.dll.mdb
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\bin\Release\Mono.Android.dll.mdb
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\bin\Release\Mono.CSharp.dll.mdb
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\bin\Release\mscorlib.dll.mdb
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\bin\Release\System.ComponentModel.Composition.dll.mdb
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\bin\Release\System.Core.dll.mdb
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\bin\Release\System.dll.mdb
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\bin\Release\System.Net.Http.dll.mdb
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\bin\Release\System.Runtime.Serialization.dll.mdb
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\bin\Release\System.ServiceModel.Internals.dll.mdb
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\bin\Release\System.Xml.dll.mdb
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\bin\Release\System.Xml.Linq.dll.mdb
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\obj\Release\android\assets\Java.Interop.dll.mdb
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\obj\Release\android\assets\Microsoft.CSharp.dll.mdb
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\obj\Release\android\assets\Mono.Android.dll.mdb
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\obj\Release\android\assets\Mono.CSharp.dll.mdb
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\obj\Release\android\assets\mscorlib.dll.mdb
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\obj\Release\android\assets\System.Core.dll.mdb
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\obj\Release\android\assets\System.dll.mdb
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\obj\Release\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\obj\Release\android\assets\System.Xml.dll.mdb
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\obj\Release\android\assets\TravelDiary.dll.mdb
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\obj\Release\android\assets\System.ComponentModel.Composition.dll.mdb
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\obj\Release\android\assets\System.Net.Http.dll.mdb
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\obj\Release\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\obj\Release\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\MUSTAFA\documents\visual studio 2015\Projects\TravelDiary\TravelDiary\obj\Release\TravelDiary.dll.mdb
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\bin\Release\TravelDiary.dll
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\bin\Release\TravelDiary.pdb
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\bin\Release\com.mylocation.apk
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\bin\Release\com.mylocation-Signed.apk
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\bin\Release\Xamarin.Android.Support.v4.dll
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\bin\Release\Xamarin.GooglePlayServices.Base.dll
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\bin\Release\Xamarin.GooglePlayServices.Basement.dll
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\bin\Release\Xamarin.GooglePlayServices.Maps.dll
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\obj\Release\TravelDiary.csprojResolveAssemblyReference.cache
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\obj\Release\TravelDiary.dll
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\obj\Release\TravelDiary.pdb
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\obj\Release\android\bin\com.mylocation.apk
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\obj\Release\res\layout\listitem.xml
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\obj\Release\res\layout\historylocation.xml
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\obj\Release\res\layout\main.xml
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\obj\Release\res\values\strings.xml
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\obj\Release\res\drawable\icon.png
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\obj\Release\res\drawable\worldwide_location.png
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\obj\Release\res\drawable\bg01.png
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\obj\Release\res\drawable\close.png
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\obj\Release\res\drawable\blue_button.xml
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\obj\Release\res\values\styles.xml
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\obj\Release\R.cs.flag
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\obj\Release\uploadflags.txt
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\bin\Release\Java.Interop.dll.mdb
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\bin\Release\Microsoft.CSharp.dll.mdb
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\bin\Release\Mono.Android.dll.mdb
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\bin\Release\Mono.CSharp.dll.mdb
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\bin\Release\mscorlib.dll.mdb
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\bin\Release\System.ComponentModel.Composition.dll.mdb
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\bin\Release\System.Core.dll.mdb
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\bin\Release\System.dll.mdb
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\bin\Release\System.Net.Http.dll.mdb
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\bin\Release\System.Runtime.Serialization.dll.mdb
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\bin\Release\System.ServiceModel.Internals.dll.mdb
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\bin\Release\System.Xml.dll.mdb
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\bin\Release\System.Xml.Linq.dll.mdb
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\bin\Release\TravelDiary.dll.mdb
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\obj\Release\android\assets\Java.Interop.dll.mdb
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\obj\Release\android\assets\Microsoft.CSharp.dll.mdb
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\obj\Release\android\assets\Mono.Android.dll.mdb
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\obj\Release\android\assets\Mono.CSharp.dll.mdb
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\obj\Release\android\assets\mscorlib.dll.mdb
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\obj\Release\android\assets\System.ComponentModel.Composition.dll.mdb
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\obj\Release\android\assets\System.Core.dll.mdb
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\obj\Release\android\assets\System.dll.mdb
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\obj\Release\android\assets\System.Net.Http.dll.mdb
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\obj\Release\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\obj\Release\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\obj\Release\android\assets\System.Xml.dll.mdb
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\obj\Release\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\obj\Release\android\assets\TravelDiary.dll.mdb
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\obj\Release\TravelDiary.dll.mdb
+C:\Users\MUSTAFA\Desktop\MUP\PROJELER\TravelDiary\TravelDiary\bin\Release\TravelDiary.dll.mdb

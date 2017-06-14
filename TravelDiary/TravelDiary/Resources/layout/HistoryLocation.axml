@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="@color/common_google_signin_btn_text_dark_default">
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:id="@+id/myListView"
+        android:background="@drawable/bg01" />
+    <Button
+        android:text="GERİ"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:id="@+id/buttonGeri"
+        android:layout_gravity="center"
+        android:background="@color/common_google_signin_btn_text_dark_disabled"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark" />
+</LinearLayout>
