@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="PersonelYonetim.PersonelYonetim" android:versionCode="1" android:versionName="1.0" android:installLocation="preferExternal">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="16" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <application android:label="PersonelYonetim" android:icon="@drawable/bg" android:name="android.app.Application" android:allowBackup="true">
+    <activity android:label="BilgilerActivity" android:theme="@android:style/Theme.NoTitleBar" android:name="md54b2dcb05ded903e0c331dbe61cf83747.BilgilerActivity" />
+    <activity android:icon="@drawable/icon" android:label="Personel Otomasyonu" android:theme="@android:style/Theme.NoTitleBar" android:name="md54b2dcb05ded903e0c331dbe61cf83747.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="PersonelYonetim.PersonelYonetim.mono.MonoRuntimeProvider.__mono_init__" />
+  </application>
+</manifest>
