@@ -1,0 +1,13 @@
+D:\SOFTWARE WOKS\VS PROJECTS\SmartStock\SmartStock\bin\Debug\SmartStock.exe.config
+D:\SOFTWARE WOKS\VS PROJECTS\SmartStock\SmartStock\obj\Debug\SmartStock.csprojResolveAssemblyReference.cache
+D:\SOFTWARE WOKS\VS PROJECTS\SmartStock\SmartStock\obj\Debug\SmartStock.LoginPanel.resources
+D:\SOFTWARE WOKS\VS PROJECTS\SmartStock\SmartStock\obj\Debug\SmartStock.Properties.Resources.resources
+D:\SOFTWARE WOKS\VS PROJECTS\SmartStock\SmartStock\obj\Debug\SmartStock.csproj.GenerateResource.Cache
+D:\SOFTWARE WOKS\VS PROJECTS\SmartStock\SmartStock\bin\Debug\SmartStock.exe
+D:\SOFTWARE WOKS\VS PROJECTS\SmartStock\SmartStock\bin\Debug\SmartStock.pdb
+D:\SOFTWARE WOKS\VS PROJECTS\SmartStock\SmartStock\obj\Debug\SmartStock.exe
+D:\SOFTWARE WOKS\VS PROJECTS\SmartStock\SmartStock\obj\Debug\SmartStock.pdb
+D:\SOFTWARE WOKS\VS PROJECTS\SmartStock\SmartStock\obj\Debug\SmartStock.DealerPanel.resources
+D:\SOFTWARE WOKS\VS PROJECTS\SmartStock\SmartStock\obj\Debug\SmartStock.AdminPanel.resources
+D:\SOFTWARE WOKS\VS PROJECTS\SmartStock\SmartStock\obj\Debug\SmartStock.CategoryTable.resources
+D:\SOFTWARE WOKS\VS PROJECTS\SmartStock\SmartStock\obj\Debug\SmartStock.WarehouseTable.resources
