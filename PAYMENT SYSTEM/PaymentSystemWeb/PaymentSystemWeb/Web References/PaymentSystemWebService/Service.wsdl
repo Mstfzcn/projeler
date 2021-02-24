@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetUserOfficerCheck">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="request" type="tns:OfficerCheckRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="OfficerCheckRequest">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="UserCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserPassword" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetUserOfficerCheckResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUserOfficerCheckResult" type="tns:OfficerCheckResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="OfficerCheckResponse">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="OfficerId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Surname" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InsertUser" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="InsertDate" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="UpdateUser" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="UpdateDate" nillable="true" type="s:dateTime" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetUserSubscriberCheck">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="request" type="tns:SubscriberCheckRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="SubscriberCheckRequest">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="IdentificationTaxNumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserPassword" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SubscriberTypeId" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetUserSubscriberCheckResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUserSubscriberCheckResult" type="tns:SubscriberCheckResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="SubscriberCheckResponse">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="SubscriberId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Surname" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SubscriberTypeId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="IdentificationTaxNumber" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SubscriptionId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="InsertUser" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="InsertDate" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="UpdateUser" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="UpdateDate" nillable="true" type="s:dateTime" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetUserSubscriber">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="request" type="tns:SubscriberRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="SubscriberRequest">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="IdentificationTaxNumber" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetUserSubscriberResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUserSubscriberResult" type="tns:SubscriberResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="SubscriberResponse">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="SubscriberId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Surname" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SubscriberTypeId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="SubscriberTypeName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IdentificationTaxNumber" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SubscriptionId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="SubscriptionType" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Active" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="InsertUser" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="InsertDate" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="UpdateUser" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="UpdateDate" nillable="true" type="s:dateTime" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="InsertSubscriber">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="request" type="tns:InsertSubscriberRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="InsertSubscriberRequest">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="SubscriberTypeId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="IdentificationTaxNumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserPassword" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Surname" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SubscriptionId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="InsertUser" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="InsertSubscriberResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="InsertSubscriberResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateInvoicePay">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="request" type="tns:UpdateInvoicePayRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="UpdateInvoicePayRequest">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="InvoiceId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="UpdateUser" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="UpdateInvoicePayResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateInvoicePayResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetInvoiceAllUnpaid">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SubscriberId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetInvoiceAllUnpaidResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetInvoiceAllUnpaidResult" type="tns:ArrayOfInvoiceAllUnpaidResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfInvoiceAllUnpaidResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="InvoiceAllUnpaidResponse" nillable="true" type="tns:InvoiceAllUnpaidResponse" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="InvoiceAllUnpaidResponse">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="InvoiceId" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="SubscriberId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="NameSurname" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SubscriptionId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="SubscriptionType" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="InvoiceAmount" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="CutOffDate" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="FinalPaymentDate" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="InsertUser" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="InsertDate" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="UpdateUser" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="UpdateDate" nillable="true" type="s:dateTime" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetInvoicePaid">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SubscriberId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetInvoicePaidResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetInvoicePaidResult" type="tns:ArrayOfInvoicePaidResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfInvoicePaidResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="InvoicePaidResponse" nillable="true" type="tns:InvoicePaidResponse" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="InvoicePaidResponse">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="InvoiceId" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="SubscriberId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="NameSurname" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SubscriptionId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="SubscriptionType" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="InvoiceAmount" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="CutOffDate" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="FinalPaymentDate" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="InsertUser" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="InsertDate" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="UpdateUser" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="UpdateDate" nillable="true" type="s:dateTime" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="CloseSubscription">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="request" type="tns:CloseSubscriptionRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CloseSubscriptionRequest">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="SubscriberId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="UpdateUser" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="CloseSubscriptionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CloseSubscriptionResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllSubscriberType">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAllSubscriberTypeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllSubscriberTypeResult" type="tns:ArrayOfSubscriberTypeResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfSubscriberTypeResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="SubscriberTypeResponse" nillable="true" type="tns:SubscriberTypeResponse" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="SubscriberTypeResponse">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="SubscriberTypeId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="TypeName" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetAllSubscription">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAllSubscriptionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllSubscriptionResult" type="tns:ArrayOfSubscriptionResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfSubscriptionResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="SubscriptionResponse" nillable="true" type="tns:SubscriptionResponse" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="SubscriptionResponse">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="SubscriptionId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="SubscriptionType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FinalPaymentDay" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Deposit" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="InsertUser" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="InsertDate" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="UpdateUser" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="UpdateDate" nillable="true" type="s:dateTime" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetInvoiceAllUnpaidTotalAmount">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SubscriberId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetInvoiceAllUnpaidTotalAmountResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetInvoiceAllUnpaidTotalAmountResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetUserOfficerCheckSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUserOfficerCheck" />
+  </wsdl:message>
+  <wsdl:message name="GetUserOfficerCheckSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUserOfficerCheckResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUserSubscriberCheckSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUserSubscriberCheck" />
+  </wsdl:message>
+  <wsdl:message name="GetUserSubscriberCheckSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUserSubscriberCheckResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUserSubscriberSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUserSubscriber" />
+  </wsdl:message>
+  <wsdl:message name="GetUserSubscriberSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUserSubscriberResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertSubscriberSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertSubscriber" />
+  </wsdl:message>
+  <wsdl:message name="InsertSubscriberSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertSubscriberResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateInvoicePaySoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateInvoicePay" />
+  </wsdl:message>
+  <wsdl:message name="UpdateInvoicePaySoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateInvoicePayResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetInvoiceAllUnpaidSoapIn">
+    <wsdl:part name="parameters" element="tns:GetInvoiceAllUnpaid" />
+  </wsdl:message>
+  <wsdl:message name="GetInvoiceAllUnpaidSoapOut">
+    <wsdl:part name="parameters" element="tns:GetInvoiceAllUnpaidResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetInvoicePaidSoapIn">
+    <wsdl:part name="parameters" element="tns:GetInvoicePaid" />
+  </wsdl:message>
+  <wsdl:message name="GetInvoicePaidSoapOut">
+    <wsdl:part name="parameters" element="tns:GetInvoicePaidResponse" />
+  </wsdl:message>
+  <wsdl:message name="CloseSubscriptionSoapIn">
+    <wsdl:part name="parameters" element="tns:CloseSubscription" />
+  </wsdl:message>
+  <wsdl:message name="CloseSubscriptionSoapOut">
+    <wsdl:part name="parameters" element="tns:CloseSubscriptionResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllSubscriberTypeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllSubscriberType" />
+  </wsdl:message>
+  <wsdl:message name="GetAllSubscriberTypeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllSubscriberTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllSubscriptionSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllSubscription" />
+  </wsdl:message>
+  <wsdl:message name="GetAllSubscriptionSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllSubscriptionResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetInvoiceAllUnpaidTotalAmountSoapIn">
+    <wsdl:part name="parameters" element="tns:GetInvoiceAllUnpaidTotalAmount" />
+  </wsdl:message>
+  <wsdl:message name="GetInvoiceAllUnpaidTotalAmountSoapOut">
+    <wsdl:part name="parameters" element="tns:GetInvoiceAllUnpaidTotalAmountResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceSoap">
+    <wsdl:operation name="GetUserOfficerCheck">
+      <wsdl:input message="tns:GetUserOfficerCheckSoapIn" />
+      <wsdl:output message="tns:GetUserOfficerCheckSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserSubscriberCheck">
+      <wsdl:input message="tns:GetUserSubscriberCheckSoapIn" />
+      <wsdl:output message="tns:GetUserSubscriberCheckSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserSubscriber">
+      <wsdl:input message="tns:GetUserSubscriberSoapIn" />
+      <wsdl:output message="tns:GetUserSubscriberSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertSubscriber">
+      <wsdl:input message="tns:InsertSubscriberSoapIn" />
+      <wsdl:output message="tns:InsertSubscriberSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInvoicePay">
+      <wsdl:input message="tns:UpdateInvoicePaySoapIn" />
+      <wsdl:output message="tns:UpdateInvoicePaySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInvoiceAllUnpaid">
+      <wsdl:input message="tns:GetInvoiceAllUnpaidSoapIn" />
+      <wsdl:output message="tns:GetInvoiceAllUnpaidSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInvoicePaid">
+      <wsdl:input message="tns:GetInvoicePaidSoapIn" />
+      <wsdl:output message="tns:GetInvoicePaidSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CloseSubscription">
+      <wsdl:input message="tns:CloseSubscriptionSoapIn" />
+      <wsdl:output message="tns:CloseSubscriptionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllSubscriberType">
+      <wsdl:input message="tns:GetAllSubscriberTypeSoapIn" />
+      <wsdl:output message="tns:GetAllSubscriberTypeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllSubscription">
+      <wsdl:input message="tns:GetAllSubscriptionSoapIn" />
+      <wsdl:output message="tns:GetAllSubscriptionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInvoiceAllUnpaidTotalAmount">
+      <wsdl:input message="tns:GetInvoiceAllUnpaidTotalAmountSoapIn" />
+      <wsdl:output message="tns:GetInvoiceAllUnpaidTotalAmountSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceSoap" type="tns:ServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetUserOfficerCheck">
+      <soap:operation soapAction="http://tempuri.org/GetUserOfficerCheck" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserSubscriberCheck">
+      <soap:operation soapAction="http://tempuri.org/GetUserSubscriberCheck" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserSubscriber">
+      <soap:operation soapAction="http://tempuri.org/GetUserSubscriber" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertSubscriber">
+      <soap:operation soapAction="http://tempuri.org/InsertSubscriber" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInvoicePay">
+      <soap:operation soapAction="http://tempuri.org/UpdateInvoicePay" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInvoiceAllUnpaid">
+      <soap:operation soapAction="http://tempuri.org/GetInvoiceAllUnpaid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInvoicePaid">
+      <soap:operation soapAction="http://tempuri.org/GetInvoicePaid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CloseSubscription">
+      <soap:operation soapAction="http://tempuri.org/CloseSubscription" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllSubscriberType">
+      <soap:operation soapAction="http://tempuri.org/GetAllSubscriberType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllSubscription">
+      <soap:operation soapAction="http://tempuri.org/GetAllSubscription" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInvoiceAllUnpaidTotalAmount">
+      <soap:operation soapAction="http://tempuri.org/GetInvoiceAllUnpaidTotalAmount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceSoap12" type="tns:ServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetUserOfficerCheck">
+      <soap12:operation soapAction="http://tempuri.org/GetUserOfficerCheck" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserSubscriberCheck">
+      <soap12:operation soapAction="http://tempuri.org/GetUserSubscriberCheck" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserSubscriber">
+      <soap12:operation soapAction="http://tempuri.org/GetUserSubscriber" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertSubscriber">
+      <soap12:operation soapAction="http://tempuri.org/InsertSubscriber" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInvoicePay">
+      <soap12:operation soapAction="http://tempuri.org/UpdateInvoicePay" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInvoiceAllUnpaid">
+      <soap12:operation soapAction="http://tempuri.org/GetInvoiceAllUnpaid" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInvoicePaid">
+      <soap12:operation soapAction="http://tempuri.org/GetInvoicePaid" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CloseSubscription">
+      <soap12:operation soapAction="http://tempuri.org/CloseSubscription" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllSubscriberType">
+      <soap12:operation soapAction="http://tempuri.org/GetAllSubscriberType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllSubscription">
+      <soap12:operation soapAction="http://tempuri.org/GetAllSubscription" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInvoiceAllUnpaidTotalAmount">
+      <soap12:operation soapAction="http://tempuri.org/GetInvoiceAllUnpaidTotalAmount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="ServiceSoap" binding="tns:ServiceSoap">
+      <soap:address location="http://localhost:53936/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceSoap12" binding="tns:ServiceSoap12">
+      <soap12:address location="http://localhost:53936/Service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
